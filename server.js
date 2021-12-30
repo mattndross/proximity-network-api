@@ -16,6 +16,7 @@ const filecontroller= require("./controllers/file.controller");
 const uploadImage = require("./controllers/uploadImage.controller")
 global.__basedir = __dirname;
 
+console.log(process.env.PG_PORT)
 
 
 //AUTH ENDPOINTS
